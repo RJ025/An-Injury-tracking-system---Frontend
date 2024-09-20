@@ -12,6 +12,7 @@ const ReportCard = () => {
   const getRandomColor = () => {
     const values = "0123456789ABCDEF";
 
+    
     let color = "#";
 
     for (let i = 0; i < 6; i++) {
