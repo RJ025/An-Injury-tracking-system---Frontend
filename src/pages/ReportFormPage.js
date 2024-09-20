@@ -39,7 +39,7 @@ const ReportFormPage = () => {
 
     axios
       .post(
-        "https://health-report-api.onrender.com/api/report",
+        "https://an-injury-tracking-system-backend.onrender.com/api/report",
 
         reportData,
         {

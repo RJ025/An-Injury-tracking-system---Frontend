@@ -17,7 +17,7 @@ const ReportsPage = () => {
       try {
         const token = await getAccessTokenSilently();
         const response = await axios.get(
-          "https://health-report-api.onrender.com/api/report",
+          "https://an-injury-tracking-system-backend.onrender.com/api/report",
           {
             headers: {
               Authorization: `Bearer ${token}`,
