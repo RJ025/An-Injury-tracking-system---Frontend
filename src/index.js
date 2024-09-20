@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         clientId={clientId}
         authorizationParams={{
           redirect_uri: window.location.origin,
-          audience:"Health api unique Identifier"
+          audience:"https://dev-t6vu0zserkbj4sda.us.auth0.com/api/v2/"
       }}
       scope ="openid profile email"
     >
