@@ -16,6 +16,7 @@ const ReportsPage = () => {
     const fetchReports = async () => {
       try {
         const token = await getAccessTokenSilently();
+        console.log(token)
         const response = await axios.get(
           "https://an-injury-tracking-system-backend.onrender.com/api/report",
           {
